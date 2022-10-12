@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Number 1",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "1\r\n5",
+      "output": "Press 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.\r\n$98,345 average salary in South Florida!\r\nPress 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Number 2",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "2\r\n5",
+      "output": "Press 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.\r\nUS News - 100 Best Jobs!\r\nPress 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Number 3",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "3\r\n5",
+      "output": "Press 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.\r\nTop 10 Forbes In-Demand Jobs!\r\nPress 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Number 4",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "4\r\n5",
+      "output": "Press 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.\r\nCurrent Students:\r\nTaya Coleman\r\nZoha Park\r\nMarisa Fowler\r\nPoppy Stafford\r\nAbdallah Nixon\r\nBilaal Cantu\r\nHoney Hewitt\r\nLilia Russo\r\nLaaibah Guerra\r\nVikki Acevedo\r\nSharna Workman\r\nZahraa Bullock\r\nHugo O'Reilly\r\nPatricia Pittman\r\nMerryn Norris\r\nShivam Townsend\r\nLaura Holman\r\nMikhail Pollard\r\nMina Gibson\r\nRoisin French\r\nPatryk Harmon\r\nIrene Baird\r\nDeacon Heaton\r\nCiaron Rawlings\r\nHammad Stout\r\nLucinda Pham\r\nMilan Barlow\r\nTracy Short\r\nHarlee Dickens\r\nHiba Thornton\r\nNile Piper\r\nGabriela Thorpe\r\nSamara Armitage\r\nPetra Foreman\r\nDestiny Landry\r\nRay Andersen\r\nElly Krause\r\nHattie Bowen\r\nAkash Dale\r\nMisbah Velez\r\nCydney Marriott\r\nArya Cruz\r\nIsadora Humphreys\r\nReese Cox\r\nBeyonce Jimenez\r\nHoward Buck\r\nNellie Clegg\r\nBeauden Whitley\r\nSolomon Decker\r\nLennon Hanna\r\nPress 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Number 5",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "5",
+      "output": "Press 1 to learn about salary.\r\nPress 2 to learn about the job.\r\nPress 3 to learn about demand.\r\nPress 4 to view current students.\r\nPress 5 to quit.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
